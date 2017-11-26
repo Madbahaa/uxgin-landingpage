@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: Quicksand; }
+
+.scroll {
+  height: 80px;
+  background: #5e5e5f;
+  color: white;
+  text-align: center; }
+  .scroll p {
+    line-height: 80px;
+    font-weight: 400; }
+
+.mask {
+  height: 100%;
+  width: 100%;
+  background: rgba(39, 38, 37, 0.8); }
+
+.first-section {
+  height: 630px;
+  width: 100%;
+  background-image: url("../img/section1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .first-section .logo {
+    text-align: center;
+    padding-top: 53px; }
+  .first-section .big-title-container {
+    margin-top: 166px;
+    padding-left: 90px; }
+    .first-section .big-title-container h1 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #fff1b9;
+      text-transform: uppercase; }
+    .first-section .big-title-container h4 {
+      font-size: 28px;
+      font-weight: 300;
+      color: white; }
+  .first-section .cta-button {
+    margin-top: 98px;
+    padding-left: 90px;
+    text-align: center; }
+    .first-section .cta-button p {
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: 300;
+      color: white;
+      background: #272625;
+      width: 279px;
+      padding: 4px 6px; }
+
+.service-section {
+  padding-top: 70px;
+  padding-bottom: 71px;
+  height: auto;
+  background: #272625; }
+  .service-section .title-section {
+    padding-left: 90px; }
+    .service-section .title-section .title {
+      font-size: 30px;
+      font-weight: 700;
+      color: #fff1b9; }
+    .service-section .title-section .sub-title {
+      font-size: 22px;
+      font-weight: 400;
+      color: #5e5e5f; }
+  .service-section .description {
+    padding-top: 54px;
+    padding-bottom: 64px;
+    display: block;
+    width: 50%;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    margin: 0 auto; }
+  .service-section .card-container {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center; }
+    .service-section .card-container p {
+      margin-top: 68px;
+      margin-bottom: 0;
+      color: #5e5e5f;
+      font-size: 40px;
+      font-weight: 300; }
+    .service-section .card-container .card {
+      width: 245px;
+      height: 195px;
+      background: #3f4040;
+      display: inline-block; }
+      .service-section .card-container .card p {
+        color: #fff1b9;
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: 46px; }
+      .service-section .card-container .card .icon {
+        margin-top: 20px;
+        height: 70px;
+        width: 70px; }
+
+.work-section {
+  padding-top: 70px;
+  padding-bottom: 88px;
+  height: auto;
+  background: #fff1b9; }
+  .work-section .title-section {
+    padding-left: 90px; }
+    .work-section .title-section .title {
+      font-size: 30px;
+      font-weight: 700;
+      color: #272625; }
+    .work-section .title-section .sub-title {
+      font-size: 22px;
+      font-weight: 400;
+      color: #5e5e5f; }
+  .work-section .tag-container {
+    margin-top: 82px;
+    width: 100%;
+    text-align: center; }
+    .work-section .tag-container .tag {
+      margin-right: 100px;
+      display: inline-block;
+      height: 198px;
+      width: 198px;
+      border-radius: 50%;
+      background: #3f4040; }
+      .work-section .tag-container .tag p {
+        color: white;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 198px;
+        text-align: center; }
+    .work-section .tag-container .tag-last {
+      display: inline-block;
+      height: 198px;
+      width: 198px;
+      border-radius: 50%;
+      background: #3f4040; }
+      .work-section .tag-container .tag-last p {
+        color: white;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 198px;
+        text-align: center; }
+  .work-section .sub-work {
+    padding-top: 37px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+    color: #5e5e5f; }
+  .work-section .cta-button2 {
+    position: relative;
+    z-index: 4;
+    text-align: center; }
+    .work-section .cta-button2 p {
+      margin: 0 auto;
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: 300;
+      color: white;
+      background: #272625;
+      width: 279px;
+      padding: 4px 6px; }
+
+.contact-section {
+  height: auto;
+  background: url("../img/section4.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .contact-section .title-section {
+    padding-top: 70px;
+    padding-left: 90px; }
+    .contact-section .title-section .title {
+      font-size: 30px;
+      font-weight: 700;
+      color: #fff1b9; }
+    .contact-section .title-section .sub-title {
+      font-size: 22px;
+      font-weight: 400;
+      color: white; }
+
+/*# sourceMappingURL=style.css.map */
